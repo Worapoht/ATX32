@@ -1,0 +1,272 @@
+#######################################
+# Syntax Coloring Map For Robot
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ATX32	KEYWORD1
+
+OK	KEYWORD2
+glcd	KEYWORD1
+glcdChar	KEYWORD1
+glcdString	KEYWORD1
+glcdMode	KEYWORD1
+glcdGetMode	KEYWORD1
+
+glcdFlip	KEYWORD1
+glcdGetFlip	KEYWORD1
+
+glcdSetColorWordRGB	KEYWORD1
+glcdSetColorWordBGR	KEYWORD1
+
+colorRGB	KEYWORD1
+setTextColor	KEYWORD1
+setTextBackgroundColor	KEYWORD1
+setTextSize	KEYWORD1
+getTextColor	KEYWORD1
+getTextBackgroundColor	KEYWORD1
+setTextBackgroundTransparent	KEYWORD1
+
+getTextSize	KEYWORD1
+glcdFillScreen	KEYWORD1
+glcdClear	KEYWORD1
+glcdPixel	KEYWORD1
+glcdRect	KEYWORD1
+glcdFillRect	KEYWORD1
+glcdLine	KEYWORD1
+glcdCircle	KEYWORD1
+glcdFillCircle	KEYWORD1
+glcdArc	KEYWORD1
+glcdPie	KEYWORD1
+GLCD_RED	LITERAL1	Constants
+GLCD_GREEN 	LITERAL1	Constants
+GLCD_BLUE 	LITERAL1	Constants
+GLCD_YELLOW 	LITERAL1	Constants
+GLCD_BLACK 	LITERAL1	Constants
+GLCD_WHITE 	LITERAL1	Constants
+GLCD_CYAN 	LITERAL1	Constants
+GLCD_MAGENTA 	LITERAL1	Constants
+
+GLCD_ORANGE 	LITERAL1	Constants
+GLCD_LIME 	LITERAL1	Constants
+GLCD_VIOLET 	LITERAL1	Constants
+GLCD_PINK 	LITERAL1	Constants
+GLCD_DOLLAR 	LITERAL1	Constants
+GLCD_SKY 	LITERAL1	Constants
+GLCD_BROWN 	LITERAL1	Constants
+GLCD_DARKGREEN 	LITERAL1	Constants
+GLCD_BROWN 	LITERAL1	Constants
+GLCD_DARKGRAY 	LITERAL1	Constants
+GLCD_GRAY 	LITERAL1	Constants
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+#--------------------------------------
+# Core function
+#--------------------------------------
+#--------------------------------------
+# Library sleep
+#--------------------------------------
+sleep	KEYWORD2
+delay_us	KEYWORD2
+#--------------------------------------
+# Library in_out.h
+#--------------------------------------
+in_out	KEYWORD2
+in	KEYWORD2
+out	KEYWORD2
+#--------------------------------------
+# Library ATX2_motor.h
+#--------------------------------------
+motor	KEYWORD2
+motor_stop	KEYWORD2
+AO	KEYWORD2
+ao	KEYWORD2
+off	KEYWORD2
+ALL 	LITERAL1	Constants
+ALL4 	LITERAL1	Constants
+ALL6 	LITERAL1	Constants
+__motorLastpow	KEYWORD1
+
+#--------------------------------------
+# Library ATX2_servoMotor.h
+#--------------------------------------
+servo	KEYWORD2
+
+#--------------------------------------
+# Library analog.h
+#--------------------------------------
+analog	KEYWORD2
+knob	KEYWORD2
+
+#--------------------------------------
+# Library ATX2_sound.h
+#--------------------------------------
+sound	KEYWORD2
+beep	KEYWORD2
+
+B_0 	LITERAL1	Constants
+C_1 	LITERAL1	Constants
+CS_1 	LITERAL1	Constants
+D_1 	LITERAL1	Constants
+DS_1 	LITERAL1	Constants
+E_1 	LITERAL1	Constants
+F_1 	LITERAL1	Constants
+FS_1 	LITERAL1	Constants
+G_1 	LITERAL1	Constants
+GS_1 	LITERAL1	Constants
+A_1 	LITERAL1	Constants
+AS_1 	LITERAL1	Constants
+B_1 	LITERAL1	Constants
+C_2 	LITERAL1	Constants
+CS_2 	LITERAL1	Constants
+D_2 	LITERAL1	Constants
+DS_2 	LITERAL1	Constants
+E_2 	LITERAL1	Constants
+F_2 	LITERAL1	Constants
+FS_2 	LITERAL1	Constants
+G_2 	LITERAL1	Constants
+GS_2 	LITERAL1	Constants
+A_2 	LITERAL1	Constants
+AS_2 	LITERAL1	Constants
+B_2 	LITERAL1	Constants
+C_3 	LITERAL1	Constants
+CS_3 	LITERAL1	Constants
+D_3 	LITERAL1	Constants
+DS_3 	LITERAL1	Constants
+E_3 	LITERAL1	Constants
+F_3 	LITERAL1	Constants
+FS_3 	LITERAL1	Constants
+G_3 	LITERAL1	Constants
+GS_3 	LITERAL1	Constants
+A_3 	LITERAL1	Constants
+AS_3 	LITERAL1	Constants
+B_3 	LITERAL1	Constants
+C_4 	LITERAL1	Constants
+CS_4 	LITERAL1	Constants
+D_4 	LITERAL1	Constants
+DS_4 	LITERAL1	Constants
+E_4 	LITERAL1	Constants
+F_4 	LITERAL1	Constants
+FS_4 	LITERAL1	Constants
+G_4 	LITERAL1	Constants
+GS_4 	LITERAL1	Constants
+A_4 	LITERAL1	Constants
+AS_4 	LITERAL1	Constants
+B_4 	LITERAL1	Constants
+C_5 	LITERAL1	Constants
+CS_5 	LITERAL1	Constants
+D_5 	LITERAL1	Constants
+DS_5 	LITERAL1	Constants
+E_5 	LITERAL1	Constants
+F_5 	LITERAL1	Constants
+FS_5 	LITERAL1	Constants
+G_5 	LITERAL1	Constants
+GS_5 	LITERAL1	Constants
+A_5 	LITERAL1	Constants
+AS_5 	LITERAL1	Constants
+B_5 	LITERAL1	Constants
+C_6 	LITERAL1	Constants
+CS_6 	LITERAL1	Constants
+D_6 	LITERAL1	Constants
+DS_6 	LITERAL1	Constants
+E_6 	LITERAL1	Constants
+F_6 	LITERAL1	Constants
+FS_6 	LITERAL1	Constants
+G_6 	LITERAL1	Constants
+GS_6 	LITERAL1	Constants
+A_6 	LITERAL1	Constants
+AS_6 	LITERAL1	Constants
+B_6 	LITERAL1	Constants
+C_7 	LITERAL1	Constants
+CS_7 	LITERAL1	Constants
+D_7 	LITERAL1	Constants
+DS_7 	LITERAL1	Constants
+E_7 	LITERAL1	Constants
+F_7 	LITERAL1	Constants
+FS_7 	LITERAL1	Constants
+G_7 	LITERAL1	Constants
+GS_7 	LITERAL1	Constants
+A_7 	LITERAL1	Constants
+AS_7 	LITERAL1	Constants
+B_7 	LITERAL1	Constants
+C_8 	LITERAL1	Constants
+CS_8 	LITERAL1	Constants
+D_8 	LITERAL1	Constants
+DS_8 	LITERAL1	Constants
+
+#--------------------------------------
+# Library ATX2_cam.h
+#--------------------------------------
+cam_init	KEYWORD2
+cam_track_color	KEYWORD2
+cam_get_mean	KEYWORD2
+cam_RS	KEYWORD2
+cam_MM	KEYWORD2
+cam_RM	KEYWORD2
+cam_PM	KEYWORD2
+cam_TW	KEYWORD2
+cam_L1	KEYWORD2
+cam_TC_ref	KEYWORD2
+cam_TC	KEYWORD2
+cam_GM	KEYWORD2
+#--------------------------------------
+# Library ATX2_i2c.h
+#--------------------------------------
+i2c_start	KEYWORD2
+i2c_stop	KEYWORD2
+i2c_write	KEYWORD2
+i2c_read	KEYWORD2
+
+#--------------------------------------
+# Library ATX2_enc.h
+#--------------------------------------
+encoder_reset	KEYWORD2
+encoder	KEYWORD2
+readEnc	KEYWORD2
+resetEnc	KEYWORD2
+encCnt	KEYWORD1
+readEnc2	KEYWORD2
+resetEnc2	KEYWORD2
+encCnt2	KEYWORD1
+readEnc3	KEYWORD2
+resetEnc3	KEYWORD2
+encCnt3	KEYWORD1
+readEnc18	KEYWORD2
+resetEnc18	KEYWORD2
+encCnt18	KEYWORD1
+
+#--------------------------------------
+# Library ATX2_sonar.h
+#--------------------------------------
+ATX2_sonar	KEYWORD1
+sonar	KEYWORD2
+sonarTime	KEYWORD2
+
+#######################################
+# Robot movement keyword
+#######################################
+fd	KEYWORD2
+bk	KEYWORD2
+fd2	KEYWORD2
+bk2	KEYWORD2
+tl	KEYWORD2
+tr	KEYWORD2
+sl	KEYWORD2
+sr	KEYWORD2
+FD	KEYWORD2
+BK	KEYWORD2
+FD2	KEYWORD2
+BK2	KEYWORD2
+TL	KEYWORD2
+TR	KEYWORD2
+SL	KEYWORD2
+SR	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
