@@ -116,7 +116,7 @@ signed int encoder(int channel)
 	  case 1: if (!__encoder1attached)
 		{
 	    __encoder1attached=true;
-		// encoder INT0
+		// encoder 1
 		encoder1Cnt=0; // Clear slot counter
 		pinMode(pinEncoder1A,INPUT_PULLUP);
 		pinMode(pinEncoder1B,INPUT_PULLUP);
@@ -130,7 +130,7 @@ signed int encoder(int channel)
 	  case 2: if (!__encoder2attached)
 	    {
 	    __encoder2attached=true;
-		// encoder INT1
+		// encoder 2
 		encoder2Cnt=0; // Clear slot counter
 		pinMode(pinEncoder2A,INPUT_PULLUP);
 		pinMode(pinEncoder2B,INPUT_PULLUP);
@@ -152,7 +152,7 @@ void encoder(int channel,int preloadValue)
 	  case 1: if (!__encoder1attached)
 		{
 	    __encoder1attached=true;
-		// encoder INT0
+		// encoder 1
 		encoder1Cnt=0; // Clear slot counter
 		pinMode(pinEncoder1A,INPUT_PULLUP);
 		pinMode(pinEncoder1B,INPUT_PULLUP);
@@ -165,7 +165,7 @@ void encoder(int channel,int preloadValue)
 	  case 2: if (!__encoder2attached)
 	    {
 	    __encoder2attached=true;
-		// encoder INT1
+		// encoder 2
 		encoder2Cnt=0; // Clear slot counter
 		pinMode(pinEncoder2A,INPUT_PULLUP);
 		pinMode(pinEncoder2B,INPUT_PULLUP);
